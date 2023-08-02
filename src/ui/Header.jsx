@@ -9,7 +9,7 @@ function Header() {
     lg:text-base flex justify-between items-center"
     >
       <Link to="/" className="md:tracking-widest flex items-center gap-2">
-        <img src="./wanderer.png" alt="" className="md:w-12 w-8" />
+        <img src="./wanderer.png" alt="" className="w-8" />
         Wanderer's Pizza
       </Link>
 
