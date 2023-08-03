@@ -8,7 +8,6 @@ function Home() {
 
   return (
     <div className="my-12 text-center">
-      {/* <Carousel /> */}
       <h1 className="mt-4 mb-4 text-sm md:text-xl font-bold">
         The best pizza.
         <br />
@@ -23,6 +22,7 @@ function Home() {
           Continue Ordering, {username}
         </Button>
       )}
+      {/* <Carousel /> */}
     </div>
   );
 }
