@@ -5,6 +5,8 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: "Roboto Mono, monospace",
+      rail: "Raleway, sans-serif",
+      slab: "Roboto Slab, serif",
     },
     extend: {},
   },

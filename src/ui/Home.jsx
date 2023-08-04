@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import CreateUser from "../features/user/CreateUser";
-import Carousel from "./Carousel";
+//import Carousel from "./Carousel";
 import Button from "./Button";
 
 function Home() {
@@ -8,10 +8,10 @@ function Home() {
 
   return (
     <div className="my-12 text-center">
-      <h1 className="mt-4 mb-4 text-sm md:text-xl font-bold">
+      <h1 className="mt-4 mb-4 text-sm md:text-3xl font-semibold">
         The best pizza.
         <br />
-        <span className="text-amber-600">
+        <span className="text-amber-500">
           Straight out of the oven, straight to you.
         </span>
       </h1>
