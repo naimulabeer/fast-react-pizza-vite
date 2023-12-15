@@ -13,33 +13,30 @@ Welcome to our static Wanderer's Pizza, where customers can easily place pizza o
 
 ## Features
 
-1. **Intuitive Pizza Selection:**
-   - Easily browse through a variety of delicious pizza options.
-   - Select your preferred toppings and customize your order.
+1. **Effortless Ordering Process:**
+   - Users can quickly order pizzas using the simplified interface powered by React Redux and Redux Thunk.
 
-2. **Efficient Order Placement:**
-   - Seamless order placement process for a quick and hassle-free experience.
-   - Choose your desired pizza size, crust, and quantity effortlessly.
+2. **Dynamic Menu Integration:**
+   - The pizza menu is loaded dynamically from an API, ensuring it's always up-to-date and easily accessible with React Router.
 
-3. **Real-time Order Tracking:**
-   - Stay updated with real-time order tracking.
-   - Track the status of your order from preparation to delivery.
+3. **User-Friendly Interface:**
+   - Tailwind CSS is employed to create a clean and responsive design, enhancing the overall user experience.
 
-4. **Responsive Design:**
-   - Enjoy a responsive and user-friendly design that adapts to various screen sizes.
-   - Enhance your ordering experience whether you're on a desktop or mobile device.
+4. **GPS Location for Delivery:**
+   - Integration with Mapbox allows users to provide GPS coordinates, streamlining the delivery process.
 
-5. **Interactive Map Integration:**
-   - View the delivery route with Mapbox integration.
-   - Get a visual representation of your pizza's journey from the oven to your doorstep.
+5. **Priority Orders:**
+   - Users have the option to mark their orders as "priority" for a 20% increase in the cart price, ensuring prompt attention.
 
-6. **Redux State Management:**
-   - Utilize Redux for efficient UI state management.
-   - Benefit from Redux Async Thunk middleware for handling asynchronous actions seamlessly.
+6. **Post-Order Modifications:**
+   - Users can mark their orders as "priority" even after placing them, offering flexibility and control.
 
-7. **Simplified Navigation:**
-   - Experience a seamless navigation flow with React Router.
-   - Easily explore different sections of the website without page reloads.
+7. **Payment on Delivery:**
+   - The system supports a payment-on-delivery model, eliminating the need for payment processing within the app.
+
+8. **Order Tracking with Unique IDs:**
+   - Each order receives a unique ID, allowing users to track and retrieve their orders easily.
+
 
 ## Technologies Used
 
