@@ -13,10 +13,10 @@ function Cart() {
   if (!cart.length) return <EmptyCart />;
 
   return (
-    <div>
+    <div className="mt-10">
       <LinkButton
         to="/menu"
-        className="text-sm text-indigo-500 hover:text-indigo-400"
+        className="text-md text-indigo-500 hover:text-indigo-400"
       >
         &larr; Back to menu
       </LinkButton>
